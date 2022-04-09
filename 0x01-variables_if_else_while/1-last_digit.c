@@ -1,3 +1,4 @@
+1.
 
 #include <stdlib.h>
 #include <time.h>
@@ -7,7 +8,9 @@
 /**
 * main - prints a tring on console
 *
+*
 * Return: 0 when all goes well
+*
 */
 
 int main(void)
