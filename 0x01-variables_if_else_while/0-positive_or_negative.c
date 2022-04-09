@@ -5,10 +5,11 @@ nclude <stdlib.h>
 /* betty style doc for function main goes there */
 
 /**
-   * main - prints a string on the console
-    *
-     * Return: 0 when all goes well
-       */
+ * main - prints a string on the console
+ *  
+ * Return: 0 when all goes well
+ *     
+ */
 
 int main(void)
 {
