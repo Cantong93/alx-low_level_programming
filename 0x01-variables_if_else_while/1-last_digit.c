@@ -3,9 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/**
+/*
 * main - prints a tring on console
-*
 * Return: 0 when all goes well
 */
 
