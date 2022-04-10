@@ -1,18 +1,15 @@
 #include <stdio.h>
 /**
- *main - prints the letters of the alphabets
+ *main entry point
  *  
+ *Description: print the lowercase alphabet
  *Return: 0
  */
 int main(void)
 {
-	/Declarations/
-		        char letter;
-
-	        for (letter = 'a'; letter <= 'z'; letter++)
-			        {
-					        putchar(letter);
-						        }
-		        putchar('\n');
-			        return (0);
+int c;
+for (c - 0; c < 26; ++c)
+putchar('a' + c);
+putchar('\n');
+Return: (0);
 }
