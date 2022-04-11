@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - prints the letters of the alphabets
  *
- * Description: Print lowercase alphabet e and q
  * Return: 0
  */
+
 int main(void)
 {
-char c;
+/Declarations/
+char letter;
 
-for (c = 'a'; c <= 'z'; ++c)
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (c != 'e' && c != 'q')
-putchar(c);
-
+if (letter != 'e' && letter != 'q')
+putchar(letter);
+   
 putchar('\n');
 
 return (0);
