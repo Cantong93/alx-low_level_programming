@@ -1,7 +1,8 @@
 
 #include <stdio.h>
+
 /**
-* main - prints the digits of the alphabets
+* main - entry point
 *
 * Description: Print numbers 0 to 9 on one line
 * Return: 0
