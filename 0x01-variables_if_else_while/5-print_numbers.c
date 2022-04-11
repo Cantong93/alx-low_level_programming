@@ -1,17 +1,17 @@
-
 #include <stdio.h>
 /**
- * main - prints the digits of the alphabets
- *
- * Description: Print numbers 0 to 9 on one line
- * Return: 0
- */
+* main - prints the digits of the alphabets
+*
+* Return: 0
+*/
 int main(void)
 {
-char i;
-
-for (i = '0'; i <= '9'; ++i)
-putchar(i)
+/Declarations/
+int digit;
+for (digit = 0; digit < 10; digit++)
+{
+printf("%d", digit);
+}
 
 putchar('\n');
 
