@@ -1,23 +1,18 @@
 #include <stdio.h>
 /**
-* main - prints the digits of the alphabets
-*
-* Return: 0
-*/
-
+ * main - entry point
+ *
+ * Description: Print numbers 0 to 9 on one line
+ * Return: 0
+ */
 int main(void)
 {
-/Declarations/
-int digit;
+  char i;
 
-for (digit = 48; digit < 58; digit++)
-{
-/putchar(digit);/
-putchar(digit);
+  for (i = '0'; i <= '9'; ++i)
+putchar(i)
 
-}
 putchar('\n');
 
 return (0);
 }
-	   
