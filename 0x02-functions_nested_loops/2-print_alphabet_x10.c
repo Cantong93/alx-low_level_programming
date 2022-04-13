@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* Description: print_alphabet-prints 10 times the alphabet, in lowercase
+* print_alphabet-prints 10 times the alphabet, in lowercase
 *
 */
 void print_alphabet_x10(void)
+description: this prints print_alphabet_x10
 {
 int count = 0;
 char letter;
