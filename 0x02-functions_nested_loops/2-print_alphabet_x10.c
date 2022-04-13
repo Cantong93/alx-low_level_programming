@@ -3,6 +3,7 @@
  * print_alphabet_x10 - prints a-z to the standard output 10 times
  *
  * Return: Doesn't return anything, void
+ * Description : print_alphabet_x10
  */
 void print_alphabet_x10(void)
 {
