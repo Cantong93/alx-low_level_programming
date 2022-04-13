@@ -1,15 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
+ * print_alphabet_x10 - prints a-z to the standard output 10 times
  *
- * Description: Print the lowercase alphabet
- * Return: 0
+ * Return: Doesn't return anything, void
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-int c;
-for (c = 0; c < 26; ++c)
-putchar('a' + c);
-putchar('\n');
-return (0);
+char i;
+int j;
+for (j = 0; j < 10; j++)
+{
+for (i = 'a'; i <= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
