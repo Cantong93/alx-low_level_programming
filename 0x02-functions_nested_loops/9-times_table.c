@@ -44,5 +44,5 @@ while (n != 0)
 n /= 10;
 out++;
 }
-return (out);
+return (0);
 }
